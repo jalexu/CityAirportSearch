@@ -3,17 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F3FE004E8CD79E4AFBFD912 /* Pods_CityAirportSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620ACD306A32FD7B4A50A08C /* Pods_CityAirportSearchTests.framework */; };
+		974573F514E200BA7419F555 /* Pods_CityAirportSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7925686EBB6FBE605E31342 /* Pods_CityAirportSearch.framework */; };
+		C23CC9102443CB2600CB5842 /* AirportHttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23CC90F2443CB2600CB5842 /* AirportHttpService.swift */; };
+		C23CC9122443CBF400CB5842 /* AirportHttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23CC9112443CBF400CB5842 /* AirportHttpRouter.swift */; };
+		C23CC9142443D5E600CB5842 /* AirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23CC9132443D5E600CB5842 /* AirportService.swift */; };
+		C23CC9162443D63D00CB5842 /* AirportAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23CC9152443D63D00CB5842 /* AirportAPI.swift */; };
+		C29733152443C4D600B691DE /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29733142443C4D600B691DE /* HttpRouter.swift */; };
+		C29733172443C65E00B691DE /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29733162443C65E00B691DE /* HttpService.swift */; };
 		C2DEF44C2442B1E70062C902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF44B2442B1E70062C902 /* AppDelegate.swift */; };
 		C2DEF44E2442B1E70062C902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF44D2442B1E70062C902 /* SceneDelegate.swift */; };
-		C2DEF4502442B1E70062C902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF44F2442B1E70062C902 /* ViewController.swift */; };
+		C2DEF4502442B1E70062C902 /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF44F2442B1E70062C902 /* SearchCityViewController.swift */; };
 		C2DEF4532442B1E70062C902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DEF4512442B1E70062C902 /* Main.storyboard */; };
 		C2DEF4552442B1EB0062C902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DEF4542442B1EB0062C902 /* Assets.xcassets */; };
 		C2DEF4582442B1EB0062C902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DEF4562442B1EB0062C902 /* LaunchScreen.storyboard */; };
 		C2DEF4632442B1EB0062C902 /* CityAirportSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF4622442B1EB0062C902 /* CityAirportSearchTests.swift */; };
+		C2DEF4702442BBD40062C902 /* SearchCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF46F2442BBD40062C902 /* SearchCityViewModel.swift */; };
+		C2DEF4732442CF960062C902 /* SearchCityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF4722442CF960062C902 /* SearchCityCoordinator.swift */; };
+		C2DEF4752442D0580062C902 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF4742442D0580062C902 /* CoordinatorProtocol.swift */; };
+		C2DEF4772442D34E0062C902 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF4762442D34E0062C902 /* BaseCoordinator.swift */; };
+		C2DEF47C2442DAC70062C902 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF47B2442DAC70062C902 /* Storyboardable.swift */; };
+		C2DEF47E2443AC5F0062C902 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF47D2443AC5F0062C902 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620ACD306A32FD7B4A50A08C /* Pods_CityAirportSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityAirportSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B57946D983AE8F017B9745C /* Pods-CityAirportSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityAirportSearchTests.release.xcconfig"; path = "Target Support Files/Pods-CityAirportSearchTests/Pods-CityAirportSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CC60FA62A68FD34BD4F709C /* Pods-CityAirportSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityAirportSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-CityAirportSearchTests/Pods-CityAirportSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8AF60FFDE2FB34D677E056E /* Pods-CityAirportSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityAirportSearch.debug.xcconfig"; path = "Target Support Files/Pods-CityAirportSearch/Pods-CityAirportSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		AA56D0FC412831475BBA2057 /* Pods-CityAirportSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityAirportSearch.release.xcconfig"; path = "Target Support Files/Pods-CityAirportSearch/Pods-CityAirportSearch.release.xcconfig"; sourceTree = "<group>"; };
+		B7925686EBB6FBE605E31342 /* Pods_CityAirportSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityAirportSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23CC90F2443CB2600CB5842 /* AirportHttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportHttpService.swift; sourceTree = "<group>"; };
+		C23CC9112443CBF400CB5842 /* AirportHttpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportHttpRouter.swift; sourceTree = "<group>"; };
+		C23CC9132443D5E600CB5842 /* AirportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportService.swift; sourceTree = "<group>"; };
+		C23CC9152443D63D00CB5842 /* AirportAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportAPI.swift; sourceTree = "<group>"; };
+		C29733142443C4D600B691DE /* HttpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRouter.swift; sourceTree = "<group>"; };
+		C29733162443C65E00B691DE /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		C2DEF4482442B1E70062C902 /* CityAirportSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityAirportSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DEF44B2442B1E70062C902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2DEF44D2442B1E70062C902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2DEF44F2442B1E70062C902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2DEF44F2442B1E70062C902 /* SearchCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewController.swift; sourceTree = "<group>"; };
 		C2DEF4522442B1E70062C902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2DEF4542442B1EB0062C902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2DEF4572442B1EB0062C902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +64,12 @@
 		C2DEF45E2442B1EB0062C902 /* CityAirportSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityAirportSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DEF4622442B1EB0062C902 /* CityAirportSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityAirportSearchTests.swift; sourceTree = "<group>"; };
 		C2DEF4642442B1EB0062C902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DEF46F2442BBD40062C902 /* SearchCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityViewModel.swift; sourceTree = "<group>"; };
+		C2DEF4722442CF960062C902 /* SearchCityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityCoordinator.swift; sourceTree = "<group>"; };
+		C2DEF4742442D0580062C902 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		C2DEF4762442D34E0062C902 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		C2DEF47B2442DAC70062C902 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		C2DEF47D2443AC5F0062C902 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974573F514E200BA7419F555 /* Pods_CityAirportSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +85,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3FE004E8CD79E4AFBFD912 /* Pods_CityAirportSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D41961DCA080B25FBED0C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7925686EBB6FBE605E31342 /* Pods_CityAirportSearch.framework */,
+				620ACD306A32FD7B4A50A08C /* Pods_CityAirportSearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26BFB50A8CE7A31DF8DFE82B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF60FFDE2FB34D677E056E /* Pods-CityAirportSearch.debug.xcconfig */,
+				AA56D0FC412831475BBA2057 /* Pods-CityAirportSearch.release.xcconfig */,
+				9CC60FA62A68FD34BD4F709C /* Pods-CityAirportSearchTests.debug.xcconfig */,
+				7B57946D983AE8F017B9745C /* Pods-CityAirportSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C29733122443C47E00B691DE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C29733132443C48E00B691DE /* Http */,
+				C23CC9132443D5E600CB5842 /* AirportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C29733132443C48E00B691DE /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				C29733142443C4D600B691DE /* HttpRouter.swift */,
+				C29733162443C65E00B691DE /* HttpService.swift */,
+				C23CC90F2443CB2600CB5842 /* AirportHttpService.swift */,
+				C23CC9112443CBF400CB5842 /* AirportHttpRouter.swift */,
+				C23CC9152443D63D00CB5842 /* AirportAPI.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		C2DEF43F2442B1E70062C902 = {
 			isa = PBXGroup;
 			children = (
 				C2DEF44A2442B1E70062C902 /* CityAirportSearch */,
 				C2DEF4612442B1EB0062C902 /* CityAirportSearchTests */,
 				C2DEF4492442B1E70062C902 /* Products */,
+				26BFB50A8CE7A31DF8DFE82B /* Pods */,
+				1D41961DCA080B25FBED0C8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +156,13 @@
 		C2DEF44A2442B1E70062C902 /* CityAirportSearch */ = {
 			isa = PBXGroup;
 			children = (
+				C29733122443C47E00B691DE /* Services */,
+				C2DEF4782442D4840062C902 /* Shared */,
+				C2DEF4712442CF570062C902 /* Coordinator */,
+				C2DEF46E2442BAD40062C902 /* ViewModel */,
+				C2DEF46D2442BAA50062C902 /* View */,
 				C2DEF44B2442B1E70062C902 /* AppDelegate.swift */,
 				C2DEF44D2442B1E70062C902 /* SceneDelegate.swift */,
-				C2DEF44F2442B1E70062C902 /* ViewController.swift */,
 				C2DEF4512442B1E70062C902 /* Main.storyboard */,
 				C2DEF4542442B1EB0062C902 /* Assets.xcassets */,
 				C2DEF4562442B1EB0062C902 /* LaunchScreen.storyboard */,
@@ -99,6 +180,41 @@
 			path = CityAirportSearchTests;
 			sourceTree = "<group>";
 		};
+		C2DEF46D2442BAA50062C902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEF44F2442B1E70062C902 /* SearchCityViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2DEF46E2442BAD40062C902 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEF46F2442BBD40062C902 /* SearchCityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C2DEF4712442CF570062C902 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEF4722442CF960062C902 /* SearchCityCoordinator.swift */,
+				C2DEF4742442D0580062C902 /* CoordinatorProtocol.swift */,
+				C2DEF4762442D34E0062C902 /* BaseCoordinator.swift */,
+				C2DEF47D2443AC5F0062C902 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C2DEF4782442D4840062C902 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEF47B2442DAC70062C902 /* Storyboardable.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2DEF4672442B1EB0062C902 /* Build configuration list for PBXNativeTarget "CityAirportSearch" */;
 			buildPhases = (
+				4311D91A08572AFB9D1A1134 /* [CP] Check Pods Manifest.lock */,
 				C2DEF4442442B1E70062C902 /* Sources */,
 				C2DEF4452442B1E70062C902 /* Frameworks */,
 				C2DEF4462442B1E70062C902 /* Resources */,
+				60DFF7E9B8CC6D811B401D47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2DEF46A2442B1EB0062C902 /* Build configuration list for PBXNativeTarget "CityAirportSearchTests" */;
 			buildPhases = (
+				B87B26F4C4AE503408C39495 /* [CP] Check Pods Manifest.lock */,
 				C2DEF45A2442B1EB0062C902 /* Sources */,
 				C2DEF45B2442B1EB0062C902 /* Frameworks */,
 				C2DEF45C2442B1EB0062C902 /* Resources */,
@@ -195,14 +314,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4311D91A08572AFB9D1A1134 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CityAirportSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60DFF7E9B8CC6D811B401D47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CityAirportSearch/Pods-CityAirportSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CityAirportSearch/Pods-CityAirportSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CityAirportSearch/Pods-CityAirportSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87B26F4C4AE503408C39495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CityAirportSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2DEF4442442B1E70062C902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DEF4502442B1E70062C902 /* ViewController.swift in Sources */,
+				C2DEF4502442B1E70062C902 /* SearchCityViewController.swift in Sources */,
+				C23CC9122443CBF400CB5842 /* AirportHttpRouter.swift in Sources */,
+				C29733172443C65E00B691DE /* HttpService.swift in Sources */,
 				C2DEF44C2442B1E70062C902 /* AppDelegate.swift in Sources */,
+				C29733152443C4D600B691DE /* HttpRouter.swift in Sources */,
+				C2DEF4752442D0580062C902 /* CoordinatorProtocol.swift in Sources */,
+				C23CC9102443CB2600CB5842 /* AirportHttpService.swift in Sources */,
+				C2DEF4732442CF960062C902 /* SearchCityCoordinator.swift in Sources */,
+				C2DEF47C2442DAC70062C902 /* Storyboardable.swift in Sources */,
+				C2DEF4772442D34E0062C902 /* BaseCoordinator.swift in Sources */,
+				C23CC9162443D63D00CB5842 /* AirportAPI.swift in Sources */,
+				C2DEF47E2443AC5F0062C902 /* AppCoordinator.swift in Sources */,
 				C2DEF44E2442B1E70062C902 /* SceneDelegate.swift in Sources */,
+				C2DEF4702442BBD40062C902 /* SearchCityViewModel.swift in Sources */,
+				C23CC9142443D5E600CB5842 /* AirportService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +555,7 @@
 		};
 		C2DEF4682442B1EB0062C902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8AF60FFDE2FB34D677E056E /* Pods-CityAirportSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +573,7 @@
 		};
 		C2DEF4692442B1EB0062C902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA56D0FC412831475BBA2057 /* Pods-CityAirportSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +591,7 @@
 		};
 		C2DEF46B2442B1EB0062C902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC60FA62A68FD34BD4F709C /* Pods-CityAirportSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +613,7 @@
 		};
 		C2DEF46C2442B1EB0062C902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B57946D983AE8F017B9745C /* Pods-CityAirportSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

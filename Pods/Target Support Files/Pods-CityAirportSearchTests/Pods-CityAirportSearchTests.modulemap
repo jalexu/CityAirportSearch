@@ -1,0 +1,6 @@
+framework module Pods_CityAirportSearchTests {
+  umbrella header "Pods-CityAirportSearchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
